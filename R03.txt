@@ -1,0 +1,3 @@
+1①Routes ②Controller ③Model ④View
+2GETリクエストで「 / 」へアクセスした場合、「/」というURLと一緒にRoutesにアクセスすることになります。この後、config/routes.rbファイル内で「/」というURLの組み合わせを探します。
+3①②③⑧

@@ -1,0 +1,2 @@
+②　belongs_to
+③　has_many
