@@ -2,6 +2,10 @@
 
 one:
   user_id: 1
+  desciption: MyString
+  image: MyString
 
 two:
   user_id: 1
+  desciption: MyString
+  image: MyString

@@ -10,7 +10,6 @@ class FavoritesController < ApplicationController
 
     if favorite.save
       redirect_to topics_path, success: 'お気に入りに登録しました'
-      @favorite_count.where(params[:topic_id])
     else
       redirect_to topics_path, danger: 'お気に入りに登録に失敗しました'
     end
