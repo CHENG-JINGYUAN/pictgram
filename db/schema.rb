@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_03_16_103152) do
 
   create_table "topics", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "user_id"
-    t.string "desciption"
+    t.string "description"
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
